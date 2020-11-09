@@ -1,0 +1,54 @@
+.tetris-board {}
+
+.tetris-board .block {
+	width: 30px;
+	height: 30px;
+	border: solid 1px #ddd;
+	display: inline-block;
+	font-size: 8pt;
+	color: black;
+	text-align: center;
+	background: white;
+}
+
+.tetris-board .row {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+.tetris-board .floor .block {
+	background: #333;
+}
+
+.tetris-board .block.filled {
+	background-color: black;
+	color: white;
+}
+
+.points {
+	font-family: fantasy;
+    font-size: 25px;
+    background: #333;
+    color: white;
+    padding: 10px;
+	width: 300px;
+	margin-top: 3%;
+}
+
+.start-game {
+	font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #1309b7a6;
+}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: none; 
+	color:#000; 
+	background:#ff0; 
+}
